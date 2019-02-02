@@ -1,6 +1,6 @@
 // http://ionicframework.com/docs/theming/
 
-
+@import '../theme/variables.scss';
 // App Global Sass
 // --------------------------------------------------
 // Put style rules here that you want to apply globally. These
@@ -14,3 +14,46 @@
 // To declare rules for a specific mode, create a child rule
 // for the .md, .ios, or .wp mode classes. The mode class is
 // automatically applied to the <body> element in the app.
+
+* {
+  font-family: $font-family-base !important;
+}
+
+ion-content,
+ion-header,
+  {
+  background: black !important;
+  color: white !important;
+}
+
+.toolbar-background {
+  background: black !important;
+}
+
+.toolbar-title {
+  font-weight: unset !important;
+  color: white !important;
+}
+
+h2 {
+  margin: 14px !important
+}
+
+.item {
+  padding-left: 0 !important;
+  background-color: black !important;
+}
+
+
+ion-input {
+  color: white;
+  background: black
+}
+
+ion-label {
+  color: white !important;
+}
+
+.item-inner {
+  border-bottom: 0 !important;
+}
