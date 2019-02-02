@@ -9,7 +9,7 @@ import { SocketIoModule, SocketIoConfig } from 'ng-socket-io';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 
-const config: SocketIoConfig = { url: 'http://localhost:3001', options: {} };
+const config: SocketIoConfig = { url: 'https://node-server-vittle.herokuapp.com/', options: {} };
 
 @NgModule({
   declarations: [
